@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bussiness website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Itim", sans-serif;
+  
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 80px;
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#A {
+            text-decoration: none; color:blue;
+        }
+        
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  border: 5px solid #555;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="contact.html">Contact</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="sources.html">Sources</a>
+  <a href="settings.html">Settings</a>
+  
+</div>
+
+
+
+
+<span style="font-size:65px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+<center>
+<h1> Home Page </h1>
+</center>
+<br>
+<p>The Maya civilization was an ethnolinguistic group of indigenous people located in Mesoamerica which lasted from around 2000 BC to 1500 AD. They are most famously known for their agriculture, pottery, writing, astrology and architecture.</p>
+
+<br>
+
+<p>Click below on the images to learn more about Maya civilization.</p>
+
+<center>
+
+<hr>
+
+  <div class="column">
+  <a id = "A" href="geography.html">
+<img height="225" width="300" src="https://cdn.kastatic.org/ka-perseus-images/601b0a4c17c1502e1e9c52d120eee56b9e6a8d1c.jpg">
+    <br>
+    </a>
+    <a id = "A" href="geography.html">Geography</a>
+  </div>
+
+  <div class="column">
+  <a id = "A" href="society.html">
+<img height="225" width="300" src="https://o.quizlet.com/gB.hnKaR8sDxScjVjWRJVg_b.png">
+    <br>
+    </a>
+    <a id = "A" href="society.html">Society</a>
+  </div>
+  
+  <div class="column">
+  <a id = "A" href="religion.html">
+<img height="225" width="300" src="http://mezoamericatribes.weebly.com/uploads/2/5/3/0/25303779/347284749.jpg?347">
+    <br>
+    </a>
+    <a id = "A" href="religion.html">Religion/Culture</a>
+  </div>
+  
+  <div class="column">
+  <a id = "A" href="technology.html">
+<img height="225" width="300" src="https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_620/MTU3ODc3NjU4MzU4OTE2ODMx/mayan-architecture.jpg">
+    <br>
+    </a>
+    <a id = "A" href="technology.html">Technology</a>
+  </div>
+  
+  <div class="column">
+  <a id = "A" href="timeline.html">
+<img height="225" width="300" src="https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/20/87/T2-H-4596-Mayan-Timeline-PowerPoint_ver_1.jpg" alt="picture of timeline">
+    <br>
+    </a>
+    <a id = "A" href="timeline.html">Chronology</a>
+  </div>
+  
+  <div class="column">
+  <a id = "A" href="art.html">
+<img height="225" width="300" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Maya-Maske.jpg">
+    <br>
+    </a>
+    <a id = "A" href="art.html">Art</a>
+  
+  
+</div>
+</center>
+
+<br>
+    <script src="script.js"></script>
+    </body>
+</html>
